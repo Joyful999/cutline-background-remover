@@ -90,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ## Checklist before going live
 
-- [ ] Replace `https://cutline.example.com` throughout (HTML, `sitemap.xml`, `robots.txt`) with your real domain.
+- [ ] Replace `https://cutline-background-remover.vercel.app` throughout (HTML, `sitemap.xml`, `robots.txt`) with your real domain.
 - [ ] Add a real `assets/images/og-cover.jpg` (1200×630) social preview image.
 - [ ] Fill in GA4 / Clarity / GTM IDs and verification `<meta>` tags, or remove the commented blocks entirely if unused.
 - [ ] Apply for AdSense only once the site has real, substantial content live (this project ships five original blog posts plus the full policy pages AdSense reviewers expect).

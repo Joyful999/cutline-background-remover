@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cutline.example.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://cutline.example.com/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://cutline.example.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cutline.example.com/blog-how-to-remove-background-from-image-online.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/blog-how-to-make-image-background-transparent.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/blog-png-vs-jpg-transparent-images.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/blog-remove-backgrounds-from-product-photos.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/blog-professional-product-images-with-background-remover.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/blog-creative-ways-to-use-transparent-background-images.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cutline.example.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://cutline.example.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://cutline.example.com/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://cutline.example.com/cookie-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/faq.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog-how-to-remove-background-from-image-online.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog-how-to-make-image-background-transparent.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog-png-vs-jpg-transparent-images.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog-remove-backgrounds-from-product-photos.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog-professional-product-images-with-background-remover.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/blog-creative-ways-to-use-transparent-background-images.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://cutline-background-remover.vercel.app/cookie-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>

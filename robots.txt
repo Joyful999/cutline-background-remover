@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://cutline.example.com/sitemap.xml
+Sitemap: https://cutline-background-remover.vercel.app/sitemap.xml

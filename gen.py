@@ -8,7 +8,7 @@ static HTML with no build step required to deploy it.
 import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SITE = "https://cutline.example.com"
+SITE = "https://cutline-background-remover.vercel.app"
 
 # ---------------------------------------------------------------------------
 # Shared partials
