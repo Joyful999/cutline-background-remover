@@ -21,7 +21,7 @@ let removeBackgroundFn = null;
 let loadingPromise = null;
 
 const ENGINE_OPTIONS = {
-  model: "small",
+  model: "isnet_quint8",
   output: { format: "image/png", quality: 1 },
 };
 
@@ -79,10 +79,11 @@ export async function removeBackground(input, onProgress) {
     );
   }
 
-  /** Start loading the engine before the user presses the remove button. */
-  export function preloadEngine() {
-    return loadLibrary().catch(() => null);
-  }
+}
+
+/** Start loading the engine before the user presses the remove button. */
+export function preloadEngine() {
+  return loadLibrary().catch(() => null);
 }
 
 /** Whether the library has already been fetched (useful for UI hints). */
