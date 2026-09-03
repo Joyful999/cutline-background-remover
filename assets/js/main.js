@@ -11,7 +11,7 @@ import {
   downloadBlob,
   uid,
 } from "./utils.js";
-import { removeBackground } from "./processor.js";
+import { preloadEngine, removeBackground } from "./processor.js";
 import { compositeBackground, loadCustomBackground, GRADIENT_PRESETS } from "./background.js";
 import { createViewport, applyOrientation, applyCrop, createCompareSlider } from "./editor.js";
 import { addHistoryEntry, getHistory } from "./history.js";
@@ -44,6 +44,10 @@ const progressFill = el("progressFill");
 const progressLabel = el("progressLabel");
 const batchStrip = el("batchStrip");
 const historyStrip = el("historyStrip");
+
+// Fetch the engine while the browser is idle so a click can start processing immediately.
+const scheduleIdle = window.requestIdleCallback || ((callback) => setTimeout(callback, 800));
+scheduleIdle(() => preloadEngine(), { timeout: 2000 });
 
 /* -------------------------------------------------------------------------
  * Queue item factory

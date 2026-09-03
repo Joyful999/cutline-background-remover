@@ -20,6 +20,11 @@ const CDN_SOURCES = [
 let removeBackgroundFn = null;
 let loadingPromise = null;
 
+const ENGINE_OPTIONS = {
+  model: "small",
+  output: { format: "image/png", quality: 1 },
+};
+
 /** Lazily import the @imgly/background-removal package, trying each CDN in turn. */
 async function loadLibrary() {
   if (removeBackgroundFn) return removeBackgroundFn;
@@ -62,7 +67,7 @@ export async function removeBackground(input, onProgress) {
   const fn = await loadLibrary();
   try {
     return await fn(input, {
-      output: { format: "image/png", quality: 1 },
+      ...ENGINE_OPTIONS,
       progress: (key, current, total) => {
         if (typeof onProgress === "function") onProgress({ key, current, total });
       },
@@ -72,6 +77,11 @@ export async function removeBackground(input, onProgress) {
     throw new Error(
       `The AI engine loaded but failed while processing this image (${err && err.message ? err.message : "unknown error"}). Try a different photo, or check the browser console for details.`
     );
+  }
+
+  /** Start loading the engine before the user presses the remove button. */
+  export function preloadEngine() {
+    return loadLibrary().catch(() => null);
   }
 }
 
