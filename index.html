@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CutLine — Free AI Background Remover </title>
-<meta name="description" content="Remove image backgrounds instantly with on-device AI. No uploads to a server, no account, no watermark. Replace backgrounds with colors, gradients, or your own photo — free in your browser.">
+<meta name="description" content="Remove image backgrounds in your browser with CutLine. Your selected images are processed locally on your device, with no image upload to a CutLine server. Export transparent PNG, JPG, or WebP files for free.">
 <meta name="keywords" content="background remover, remove background, ai background removal, transparent png, photo editor, remove.bg alternative, clipdrop alternative">
 <link rel="canonical" href="https://cutline-background-remover.vercel.app/">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -132,7 +132,7 @@
       <div class="hero-inner">
         <span class="eyebrow">On-device AI &middot; No uploads &middot; No watermark</span>
         <h1 id="hero-heading">Cut the background out.<br><em>Keep the moment in.</em></h1>
-        <p class="lead">Drop a photo below and CutLine's on-device AI lifts the subject out in seconds &mdash; right here in your browser. Nothing is sent to a server.</p>
+        <p class="lead">Drop a photo below and CutLine's on-device AI lifts the subject out in seconds &mdash; right here in your browser. Your selected images are processed locally in your browser and are not uploaded to a CutLine server for background removal.</p>
       </div>
 
       <div class="workspace">
@@ -322,13 +322,17 @@
       <div class="section-head">
         <span class="eyebrow">Why CutLine</span>
         <h2 id="features-heading">Built like a professional editing tool, not a toy.</h2>
-        <p>Every core feature you'd expect from a paid background remover, running for free in your browser.</p>
+        <p>A browser-based background removal and image editing tool for quick, practical image projects.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
           <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 1-4.5 4.4 1 6.1L12 16l-5.5 3.5 1-6.1L3 8l6-1z"/></svg>
           <h3>On-device AI cutouts</h3>
-          <p>A neural segmentation model runs locally via WebAssembly &mdash; your photos are never uploaded anywhere.</p>
+          <p>
+    CutLine uses a browser-based image-segmentation model to identify the main
+    subject in your image. The processing happens locally on your device rather
+    than uploading the selected image to a CutLine server for background removal.
+</p>
         </article>
         <article class="feature-card">
           <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 15l5-5 4 4 5-6 4 5"/></svg>
@@ -384,6 +388,125 @@
       </div>
     </div>
   </section>
+
+  <section class="content-section">
+    <div class="container">
+        <div class="content-narrow">
+            <h2>How CutLine Removes an Image Background</h2>
+
+            <p>
+                CutLine is a browser-based image editing tool designed to separate
+                a foreground subject from the background of an image. The tool uses
+                an image-segmentation model to estimate which parts of the image
+                belong to the main subject.
+            </p>
+
+            <h3>Image processing in your browser</h3>
+
+            <p>
+                When you select an image, CutLine loads the required processing
+                resources and performs the background-removal operation in the
+                browser. The selected image is processed on your device rather
+                than being uploaded to a CutLine server for the background-removal
+                operation.
+            </p>
+
+            <h3>Refine the result</h3>
+
+            <p>
+                After the initial cutout is created, you can compare the original
+                and processed image, refine the edges and choose how the subject
+                should appear in the final design.
+            </p>
+
+            <h3>Choose a new background</h3>
+
+            <p>
+                A removed background can remain transparent or be replaced with a
+                solid color, gradient, blur effect or another image. This makes the
+                tool useful for product photos, profile images, social media
+                graphics, presentations and other visual projects.
+            </p>
+
+            <h3>Export the result</h3>
+
+            <p>
+                Depending on the workflow, you can export the edited image as a
+                transparent PNG or another supported image format. The exported
+                file is generated by the browser after processing.
+            </p>
+        </div>
+    </div>
+</section> <br><br>
+
+<section class="content-section">
+    <div class="container">
+        <div class="content-narrow">
+            <h2>Who Can Use CutLine?</h2>
+
+            <p>
+                CutLine is designed for anyone who needs to separate a subject
+                from an image background without opening a full desktop photo
+                editor.
+            </p>
+
+            <h3>Online sellers</h3>
+            <p>
+                Product photos often work better on clean backgrounds. CutLine can
+                help create a transparent subject image that can be placed on a
+                product page, catalogue, marketplace graphic or promotional design.
+            </p>
+
+            <h3>Content creators</h3>
+            <p>
+                Creators can remove backgrounds from portraits and other images
+                before placing the subject into thumbnails, social graphics,
+                presentations or other visual content.
+            </p>
+
+            <h3>Designers and students</h3>
+            <p>
+                Transparent images can be useful when creating posters,
+                presentations, educational materials, invitations and other
+                designs.
+            </p>
+
+            <h3>Everyday image editing</h3>
+            <p>
+                You can also use CutLine for simple personal projects where you
+                need a subject separated from its original background.
+            </p>
+        </div>
+    </div>
+</section><br><br>
+
+<section class="content-section">
+    <div class="container">
+        <div class="content-narrow">
+            <h2>CutLine's Limitations</h2>
+
+            <p>
+                Automatic background removal is not perfect for every image.
+                Results can vary depending on image resolution, lighting, contrast,
+                subject complexity and how clearly the subject is separated from
+                the background.
+            </p>
+
+            <p>
+                Fine details such as hair, transparent objects, smoke, glass,
+                thin wires and objects with colors similar to the background may
+                require additional refinement.
+            </p>
+
+            <p>
+                Very large images may also require more processing time and memory
+                from the device running the browser. If a result is not accurate,
+                try a clearer image with better lighting and stronger separation
+                between the subject and its background.
+            </p>
+        </div>
+    </div>
+</section>
 
   <section class="section" aria-labelledby="cta-heading">
     <div class="container">
